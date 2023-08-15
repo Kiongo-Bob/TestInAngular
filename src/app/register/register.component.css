@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 0.8px black;
+    height: 40vh;
+    width: 40vw;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 7% auto;
+    font-weight: 600;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+#regbtn, #reset{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#regbtn:hover, #reset:hover{
+    background-color: red;
+    color: white;
+}

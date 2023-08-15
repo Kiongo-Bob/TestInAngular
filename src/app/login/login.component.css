@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 0.8px black;
+    height: 40vh;
+    width: 40vw;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+#loginbtn{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    margin: auto;
+    border-radius:5px;
+}
+#loginbtn:hover{
+    background-color: red;
+}
